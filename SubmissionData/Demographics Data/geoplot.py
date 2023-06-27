@@ -1,6 +1,6 @@
 
 import json # reading geojson files
-data = json.load(open("nyc-neighbourhoods.geojson"))
+data = json.load(open("Zurich.geojson"))
 import matplotlib.pyplot as plt # plotting data
 fig = plt.figure() # create a figure to contain the plot elements
 ax = fig.gca(xlabel="Longitude", ylabel="Latitude")
@@ -23,5 +23,5 @@ for feat in data["features"]:
                 alpha=0.6, lw=2, ls='-', zorder=2))
 
 ax.clear # clear the axes memory
-plt.savefig("NYC.png")
+plt.savefig("Zurich.png")
 plt.show()
