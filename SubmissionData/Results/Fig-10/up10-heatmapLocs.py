@@ -110,13 +110,13 @@ newTotalData = [[0.13, 0.34, 0.06, 0.35, 0.08, 0.32, 0.8610887854316747, 0.19, 0
 ylticls = ['Bar/Pub', 'Car Hire', 'Business & Services', 'Clothing & Accessories', 'Electronics', 'Coffee/Tea', 'Petrol Station', 'Religious Place', 'Car Dealer/Repair', 'Dance or Nightclub']
 
 yticksNew = []
-plt_1 = plt.figure(figsize=(7.5, 7))
+plt_1 = plt.figure(figsize=(6.5, 5))
 
 
 print(newTotalData)
 for i in range(0,len(newTotalData)):
     print(i, np.average(newTotalData[i]))
-ax = sns.heatmap(newTotalData, cbar=False, vmin=0, vmax=1,annot=True, annot_kws={"size":16}, cbar_kws={"shrink": .7})
+ax = sns.heatmap(newTotalData, cbar=False, vmin=0, vmax=1,annot=True, annot_kws={"size":13}, cbar_kws={"shrink": .7})
 
 
 linecolor="grey"
@@ -143,14 +143,18 @@ for i in range(0, len(xt)):
 
 plt.yticks(yt, yticksNew, rotation=0, fontsize=14)
 
-plt.xticks(xt, cities, rotation=90, fontsize=18)
+plt.xticks(xt, cities, rotation=90, fontsize=14)
 
-plt.subplots_adjust(left=0.18,
-                    bottom=0.12, 
-                    right=0.99, 
-                    top=0.99, 
+plt.subplots_adjust(left=0.0,
+                    bottom=0.0, 
+                    right=0.79, 
+                    top=.87, 
                     wspace=0.1, 
                     hspace=0.4)
+
+ax.tick_params(top=True, labeltop=True, bottom=False, labelbottom=False)
+ax.yaxis.tick_right()
+
 
 plt.savefig('Results2l/2l6b-giCities.png')
 plt.savefig('Results2l/2l6b-giCities.eps')
