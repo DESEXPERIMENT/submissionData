@@ -1,0 +1,4 @@
+user_id:234301
+user_token:c4ee8a01a7c03725515a70a816fef6e3ceb9817ac4fdecaacce9af9e31948128
+site_id:23
+filters_json:{"_self":{"latitude":[4.48027,4.89156],"longitude":[-74.2347,-73.9847],"type":["scooter","kick"]}}

@@ -1,0 +1,5 @@
+app-version: 4.39.1.1
+location: {"accuracy":1.2365895509719849,"altitude":57.0,"heading":null,"latitude":38.8950080871582,"longitude":-77.03656005859375,"mocked":true,"speed":0.0}
+authorization: Bird eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBVVRIIiwidXNlcl9pZCI6IjJlMGM1ZTQyLTc1YjItNDkxNi05M2U4LWY5Yjg4MGQ1NTdlOSIsImRldmljZV9pZCI6IjdjMmEzMTVlZjRjNTg4OTIiLCJleHAiOjE1OTIyNDc4NjJ9.DkvUuvjEajZg9365SxjCyoVm1fShGXFiRN-Kkyoalvg
+accept-language: en-US
+accept-encoding: gzip

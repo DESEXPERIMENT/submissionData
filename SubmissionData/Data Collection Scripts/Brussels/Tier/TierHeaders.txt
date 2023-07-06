@@ -1,0 +1,4 @@
+customer-agent: Tier Android
+x-api-key: bpEUTJEBTf74oGRWxaIcW7aeZMzDDODe1yBoSxi2
+user-agent: Tier/3.0.11 (Android/5.1.1)
+accept-encoding: gzip
