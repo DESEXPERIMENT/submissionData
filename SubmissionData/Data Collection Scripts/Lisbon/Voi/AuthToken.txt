@@ -1,0 +1,28 @@
+:method: POST
+:path: /v1/auth/session/
+:authority: api.voiapp.io
+:scheme: https
+client-time: 1560532638091
+appversion: 2.17.1
+appversion-code: 211
+os-version: 22
+device-id: 7c2a315ef4c58892
+os: Android
+timezone: Amazon Standard Time
+locale: en
+carrier-name: T-Mobile
+battery-level: 80
+model: SM-N9005
+brand: Android
+manufacturer: samsung
+x-app-name: Android-Rider
+x-app-version: 2.17.1
+x-os: Android
+x-os-version: 22
+x-request-id: 7484d9bf-892c-4f91-a195-5d51fef888eb
+content-type: application/json; charset=UTF-8
+content-length: 442
+accept-encoding: gzip
+user-agent: okhttp/3.12.0
+
+{"authenticationToken":"eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NjgzMDc3MzgsImp0aSI6IjAiLCJpYXQiOjE1NjA1MzE3MzgsImlzcyI6ImF1dGguYXBpLnZvaWFwcC5pbyIsIm5iZiI6MTU2MDUzMTczNywidXNlcklkIjoiNjAyNDAwYjktYmUyYy00MGM2LTkzMDgtM2ZmODU1MjI2OGRkIiwiVXNlcklEIjoiNjAyNDAwYjktYmUyYy00MGM2LTkzMDgtM2ZmODU1MjI2OGRkIiwiVmVyaWZpZWQiOmZhbHNlLCJ2ZXJpZmllZCI6ZmFsc2V9.X4RZ32vC5htYtmv_qY1lqw0njbzxr8WQKupEVQ3ap4DZjaXiU9scQj2duFW3wKl-BhXCJeYDKDIIBef7Io0gSg"}

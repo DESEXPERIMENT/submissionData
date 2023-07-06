@@ -1,0 +1,1 @@
+Madrid calls are in Lisbon folder, using the same script for all three cities

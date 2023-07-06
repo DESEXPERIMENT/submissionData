@@ -1,0 +1,7 @@
+accept: application/json
+cache-control: no-cache
+content-type: application/json
+Host: api.goflash.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/3.12.0
