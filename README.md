@@ -8,4 +8,18 @@ Details of forlder, files, and scripts
 **Results > requirements.txt** : Contains the list of packages to be installed to run the scripts to regenrate the results of this paper. User "pip install -r requirements.txt" to install the required packages. 
 
 
-**SubmissionData > Sample Responses** : As per the suggestions and terms of our IRB approval, we are not allowd not share the endpoints or the raw responses of DES providers with anyone. To give an overview of the collected datasets, we have shared few processed daily collected datasets of a few DES providers. They do not contain the actual web responses.
+**SubmissionData > Sample Responses** : To give an overview of the collected datasets, we have shared few processed daily collected datasets of a few DES providers. They do not contain the actual web responses.
+
+
+**SubmissionData > Data Collection Scripts** : This folder contains all the scripts in every city for data collection in this experimetn
+
+
+**SubmissionData > Famous Places** : It contains dictionaries of the famous places in each city of the experiment
+
+
+**SubmissionData > Educational Institutes** : It contains dictionaries of the educational institutes in each city of the experiment
+
+**SubmissionData > Holidays** : It contains dictionaries of national and regional holidays in each city of the experiment
+
+
+**SubmissionData > Weather Data** : It contains dictionaries for the weather attributes on each day of data collection in each city
