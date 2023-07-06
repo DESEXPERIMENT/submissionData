@@ -23,3 +23,6 @@ Details of forlder, files, and scripts
 
 
 **SubmissionData > Weather Data** : It contains dictionaries for the weather attributes on each day of data collection in each city
+
+
+**SubmissionData > geojson Files** : It contains geojson files of the shapes of census tracts for each city of the experiment.
